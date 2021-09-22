@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family:"Poppins", sans-serif ;
+}
+
+:root{
+    --main-color:#fe5b3d;
+    --second-color:#ffac38;
+    --text-color:#444;
+    --gradient:linear-gradient(#fe5b3d, #ffac38);
+}
+
+
+section{
+    padding: 50px 100px;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 15px 100px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 2rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url('/images/maserati.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.text h1{
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    color: #ffac38;
+
+}
+
+.text span{
+    font-size: larger;
+}
+
+.text p{
+    font-size: 2rem;
+    color: aqua;
+}
+
+
+
+
+
+
+ 
+
+
