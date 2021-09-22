@@ -1,0 +1,66 @@
+body {
+    background-color: blanchedalmond;
+}
+nav {
+    flex:1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    background-color: black;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid ;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 8px; 
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+    height: 1000px;
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont {
+    background-color: blanchedalmond;
+}
+
+.info {
+    float:left;          
+    width:50%;
+    height:280px;
+}
+.us {
+    float:right; 
+    width:50%;
+    height:280px;
+}
