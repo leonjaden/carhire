@@ -40,6 +40,22 @@ body{
   font-weight: 500;
 }
 
+.heading h1{
+  font-size: 200%;
+  text-align: center;
+}
+
 .heading p{
   font-weight: 500;
+  font-size: 150%;
+  text-align: center;
+}
+
+.heading p2{
+  font-weight:400 ;
+}
+
+
+.heading ol{
+  font-weight: 400;
 }
