@@ -37,7 +37,7 @@ header{
 
 .logo img{
     width: 120px;
-    height: 40px;
+    height: 30px;
 }
 #navigator{
 
@@ -83,7 +83,7 @@ a{
     padding: 0px 0px;
 }
 
-.text h1{
+.text h2{
     font-size: 3.5rem;
     letter-spacing: 2px;
     color: #ffac38;
