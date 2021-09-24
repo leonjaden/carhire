@@ -75,7 +75,7 @@ input[type=submit]:hover {
    
 }
 #ima {
-    background-image: url(/image/tal.jpg);
+    background-image: url(/images/tal.jpg);
     height: 100%;
     background-size: cover;
     width:100%;
