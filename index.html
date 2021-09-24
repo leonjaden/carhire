@@ -14,49 +14,61 @@
 </head>
 <body>
   <!--header-->
-  <header>
-      <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+  <header id="headerSection">
+      <a href="#services" class="logo"><img id="headerLogo" src="images/logo.png" alt=""></a>
   </header>
 
   
     
-      <div id ="navigator" class="navbar">
-        <nav>
-          <ul>
+      <div id ="navigate" class="navbar">
+        <nav id="navo">
+          <ul id="navoList">
             <li><a href="index.html">Home</a></li>
-            <li><a href=""></a>About</li>
-            <li><a href=""></a>Services</li>
-            <li><a href=""></a>Contact us</li>
+            <li><a href="#headerAbout">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#ima">Contact Us</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </div>
   <!--home-->  
-  <section class="home" id="home">
+  <section class="home" id="homeSection">
       <div class="text">
-          <h2><span>Looking</span><br>to hire a Car</h2>
-          <p>We have the best affordable cars for You!</p>
+          <h2 id="headingTwo"><span>Looking</span><br>to Hire a Car?</h2><br><br>
+          <p id="pTwo">We have the best affordable cars for You!</p><br><br><br><br><br><br><br>
           
       </div> 
-       <div class="form container">
-       <!-- <form action="">
-            <div class="input-box">
-              <span>Types of Cars</span>
-              <input type="search" name="" id="" placeholder="search Cars">
-            </div>
-            <div class="input-box">
-              <span>Pick-Up Date</span>
-              <input type="search" name="" id="">
-            </div>
-            <div class="input-box">
-              <span>Return Date</span>
-              <input type="search" name="" id="">
-            </div>
-            <input type="submit" name="" id="" class="btn">
-        </form> home--> 
+       <div id="footerForm" class="formContainer">
       </div>   
-          
+      <footer>
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+              <div class="col-12">
+               
+              <label id="phoneNo" for="phone">Enter Your Phone Number:</label>
+              <input type="tel" id="phone" name="phone"  pattern="+254[9]" value="+254" required>
+                 </div>
+              </div>
+            
+              <div class="col-12">
+                <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                <select class="form-select" id="inlineFormSelectPref">
+                  <option selected>Choose Vehicle Category of Interest</option>
+                  <option value="1">Four Door Sedan Model</option>
+                  <option value="2"> Hybrid Fuel Economy Model</option>
+                  <option value="3">High End Prestige Model</option>
+                  <option value="4"> OffRoad SUV Model</option>
+                  <option value="5"> Hybrid Fuel Economy Model</option>
+                </select>
+              </div>
+            
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+
+
+      </footer>    
         
       
   </section>
