@@ -7,21 +7,29 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/contact.js"></script>  
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div id="ima">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <ul> 
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
     
    
     <div class="container" id="cont" >
-        <div class="row justify-content-start">
+        <div class="row " id="ra" >
             <div class="col-6 info">
                 <h5>CONTACT INFO</h5>
                 <i class="fa fa-home"> South B, Nairobi</i>
@@ -33,18 +41,18 @@
                 <i class="glyphicon glyphicon-envelope"> info@fab6@gmail.com</i>
                 <br>
                 <br>
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="307" height="276" id="gmap_canvas" src="https://maps.google.com/maps?q=south%20b,nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:276px;width:307px;}</style><a href="https://www.embedgooglemap.net">custom embedded google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:276px;width:307px;}</style></div></div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="307" height="256" id="gmap_canvas" src="https://maps.google.com/maps?q=south%20b,nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br><style>.mapouter{position:relative;text-align:right;height:276px;width:307px;}</style><a href="https://www.embedgooglemap.net">custom embedded google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:276px;width:307px;}</style></div></div>
             </div>
             <div class="col-6 us">
 
-                <form class="form"  action="action_page.php">
+                <form class="form"  action="action_page.php" id="frm" >
                     <h5>CONTACT US</h5>
       
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
               
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <input type="text" id="lname" name="lastname"  placeholder="Your last name..">
               
                     <label for="town">Town</label>
                     <select id="town" name="town">
@@ -58,14 +66,43 @@
                     </select>
               
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
               
-                    <input type="submit" value="submit" id="submit">
+                    <input type="submit" value="submit" id="submit" onclick="showCustomerMessage()">
                 </form>
 
             </div>
         </div>
     
     </div>
+        <ul id="so">
+            <li >
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span> - Facebook</span>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span> - Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    <span> - Google</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span> - Instagram</span>
+                </a>
+            </li>
+    </div>
+
+    <script src="js/contact.js"></script>  
 </body>
+
 </html>
